@@ -12,7 +12,7 @@ import {
  *
  * @param str                Text to trim
  * @param chars              Characters to trim
- * @param preserveCheckboxes Whether to preserve a space after an empty checkbox
+ * @param preserveCheckboxes Whether to preserve a space after a checkbox
  * @return                   Trimmed text
  */
 function _trimTrailingCharacters(
