@@ -31,7 +31,7 @@ function _trimTrailingCharacters(
 			const lineStart = text.lastIndexOf("\n", offset - 1) + 1;
 			const line = text.slice(lineStart, offset);
 			const isCheckbox =
-				/^[ \t]*(?:[-*+]|[0-9]{1,9}[.)])[ \t]+\[[ xX]\]$/.test(line);
+				/^[ \t]*(?:[-*+]|[0-9]+[.)])[ \t]+\[[ xX]\]$/.test(line);
 
 			return isCheckbox ? " " : "";
 		},
